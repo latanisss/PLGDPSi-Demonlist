@@ -1,24 +1,11 @@
 {
-    "id": 57436521,
-    "name": "Tes",
-    "author": "Meoww",
-    "creators": ["cwel"],
-    "verifier": "cweli",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": "100",
-    "password": "46290",
+    "id": 129,
+    "name": "Knossos",
+    "author": "KPC",
+    "creators": [],
+    "verifier": "KPC",
+    "verification": "https://youtu.be/uFZYypEZv0Q?is=XgBqRg5p5508fGXp",
+    "percentToQualify": "73",
     "records": [
-        {
-            "user": "wiktor",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "wiktorek",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 101,
-            "hz": 120
-        }
     ]
 }

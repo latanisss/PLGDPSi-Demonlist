@@ -1,18 +1,11 @@
 {
-    "id": 57436521,
-    "name": "SampleLevel1",
-    "author": "LevelUploader",
-    "creators": ["Creator1", "Creator2", "Creator3"],
-    "verifier": "Verifier",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 56,
-    "password": "Not Copyable",
+    "id": 110,
+    "name": "Moj kot sie nazywa",
+    "author": "skajer",
+    "creators": [],
+    "verifier": "skajer",
+    "verification": "https://youtu.be/aQu2IJgZtrc",
+    "percentToQualify": 74,
     "records": [
-        {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 360
-        }
     ]
 }
