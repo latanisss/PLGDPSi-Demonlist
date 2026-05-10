@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/uR4bkFxMcCY",
     "percentToQualify": "86",
     "records": [
+        {
+            "user": "MrPenguin",
+            "link": "https://youtu.be/bhP8403udQo",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
