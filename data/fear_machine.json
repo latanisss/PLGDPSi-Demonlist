@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/qcOhVPncHqs",
     "percentToQualify": "81",
     "records": [
+        {
+            "user": "kartelpl",
+            "link": "https://youtu.be/jJQ2J8QiDgo?si=P7iDC-yjLdr5dln3",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
