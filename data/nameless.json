@@ -6,7 +6,7 @@
     "verifier": "MsVxef",
     "verification": "https://youtu.be/V93DByIhb9s?si=oRQT6glwDcBWBU8X",
     "percentToQualify": "81",
-   "records": [
+    "records": [
         {
             "user": "MayXaX",
             "link": "https://medal.tv/games/geometry-dash/clips/mAfQeGQutihbYJikg?invite=cr-MSwzNXcsMzg2Mzc3NzM0",
@@ -43,6 +43,12 @@
             "percent": 100,
             "hz": 170,
             "mobile": true
+        },
+        {
+            "user": "MrPenguin",
+            "link": "https://youtu.be/5kGpBCdyUC8",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
