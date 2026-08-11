@@ -12,6 +12,12 @@
             "link": "https://youtu.be/W9-exM4eVjQ",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "skajer",
+            "link": "https://www.youtube.com/watch?v=nbzqbK1qhMY",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
