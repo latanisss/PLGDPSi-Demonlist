@@ -36,6 +36,13 @@
             "link": "https://youtu.be/qrQy4jSzAt4?si=vRMrsBWX_40L6kMG",
             "percent": 100,
             "hz": 90
+        },
+        {
+            "user": "RooksGD",
+            "link": "https://youtu.be/69J9Nmr0SFE?is=BHPVjJjBBbfcjxPQ",
+            "percent": 100,
+            "hz": 170,
+            "mobile": true
         }
     ]
 }
