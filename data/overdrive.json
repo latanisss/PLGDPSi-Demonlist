@@ -6,12 +6,5 @@
     "verifier": "KPC",
     "verification": "https://www.youtube.com/watch?v=3fkWXwtlTi0",
     "percentToQualify": "64",
-    "records": [
-        {
-            "user": "Mv73k",
-            "link": "https://youtu.be/qYnb6cNqpfg",
-            "percent": 100,
-            "hz": 1000
-        }
-    ]
+    "records": []
 }
