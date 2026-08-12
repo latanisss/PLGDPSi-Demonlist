@@ -1,31 +1,18 @@
 .btn {
-    min-height: 2.8rem;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    cursor: pointer;
-    font: inherit;
-    padding: 0.78rem 1rem;
+    min-height: 2.9rem;
     margin: 0;
-    background: linear-gradient(135deg, var(--color-primary-bright), var(--color-primary));
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--color-border-strong);
+    background: var(--color-primary);
     color: var(--color-on-primary);
-    border-radius: var(--radius-sm);
-    box-shadow: 0 8px 24px rgba(228, 44, 69, 0.20);
-    transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+    cursor: pointer;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 var(--color-border-strong);
+    transition: transform 80ms ease, box-shadow 80ms ease;
 }
-
-.btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-.btn:not(:disabled):hover:not(:active) {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(228, 44, 69, 0.28);
-    filter: brightness(1.06);
-}
-
-.btn.danger {
-    background: var(--color-background-elevated);
-    color: var(--color-error);
-    border-color: rgba(220, 48, 72, 0.28);
-    box-shadow: none;
-}
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn:not(:disabled):hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--color-border-strong); }
+.btn.danger { background: transparent; color: var(--color-primary-bright); box-shadow: none; }

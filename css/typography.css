@@ -1,52 +1,67 @@
 body,
 button,
 input {
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Inter Tight", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
 h1,
+h2,
+h3,
+.type-h1,
+.type-h2,
+.type-h3,
+.type-headline-lg,
+.type-headline-md,
+.type-headline-sm {
+    font-family: "Archivo Black", Impact, sans-serif;
+    text-transform: uppercase;
+}
+
+h1,
 .type-h1,
 .type-headline-lg {
-    font-size: clamp(2.15rem, 4vw, 3.8rem);
-    line-height: 0.98;
-    font-weight: 800;
-    letter-spacing: -0.055em;
+    font-size: clamp(2.5rem, 5.4vw, 5.8rem);
+    line-height: 0.86;
+    font-weight: 400;
+    letter-spacing: -0.065em;
 }
 
 h2,
 .type-h2,
 .type-headline-md {
-    font-size: clamp(1.45rem, 2.2vw, 2.15rem);
-    line-height: 1.08;
-    font-weight: 750;
-    letter-spacing: -0.04em;
+    font-size: clamp(1.55rem, 2.5vw, 2.8rem);
+    line-height: 0.95;
+    font-weight: 400;
+    letter-spacing: -0.045em;
 }
 
 h3,
 .type-h3,
 .type-headline-sm {
-    font-size: clamp(1.1rem, 1.5vw, 1.35rem);
-    line-height: 1.2;
-    font-weight: 700;
+    font-size: clamp(1.05rem, 1.6vw, 1.4rem);
+    line-height: 1;
+    font-weight: 400;
     letter-spacing: -0.025em;
 }
 
 h4,
-.type-h4,
-.type-title-lg,
 h5,
-.type-h5,
-.type-title-md,
 h6,
 dt,
+.type-h4,
+.type-h5,
 .type-h6,
-.type-title-sm {
-    font-size: 0.68rem;
-    line-height: 1.35;
+.type-title-lg,
+.type-title-md,
+.type-title-sm,
+.eyebrow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.67rem;
+    line-height: 1.4;
     font-weight: 700;
-    letter-spacing: 0.11em;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
 }
 
@@ -54,19 +69,21 @@ label,
 input[type="text"],
 input[type="number"],
 .type-label-lg {
-    font-size: 0.92rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.82rem;
     line-height: 1.35;
     font-weight: 600;
 }
 
 .type-label-md {
-    font-size: 0.78rem;
-    line-height: 1.5;
+    font-size: 0.8rem;
+    line-height: 1.55;
     font-weight: 500;
 }
 
 .type-label-sm {
-    font-size: 0.68rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.66rem;
     line-height: 1.4;
     font-weight: 600;
 }
@@ -74,10 +91,8 @@ input[type="number"],
 p,
 .type-body {
     font-size: 0.91rem;
-    line-height: 1.65;
-    font-weight: 450;
+    line-height: 1.55;
+    font-weight: 500;
 }
 
-strong {
-    font-weight: 700;
-}
+strong { font-weight: 700; }

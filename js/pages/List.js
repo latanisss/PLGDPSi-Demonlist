@@ -24,8 +24,8 @@ export default {
             <div class="list-container">
                 <div class="panel-heading">
                     <div>
-                        <span class="eyebrow">AKTUALNY RANKING</span>
-                        <h2>Demonlista</h2>
+                        <span class="eyebrow">PLGDPSi // INDEX</span>
+                        <h2>Lista demonów</h2>
                     </div>
                     <span class="count-pill">{{ list?.length || 0 }} LEVELI</span>
                 </div>
@@ -109,7 +109,7 @@ export default {
                     </div>
                     <div class="og">
                         <h3>PLGDPSi Demonlist</h3>
-                        <p class="type-label-md">Layout oparty na projekcie <a href="https://tsl.pages.dev/" target="_blank" rel="noopener">TheShittyList</a>.</p>
+                        <p class="type-label-md">Archiwum najtrudniejszych leveli i zweryfikowanych runów społeczności.</p>
                     </div>
                     <template v-if="editors">
                         <div class="section-heading compact">
@@ -140,6 +140,7 @@ export default {
                         <li>Secret routes, bug routes oraz easy mode są niedozwolone.</li>
                         <li>Po spadku levelu do Legacy rekordy przyjmujemy jeszcze przez 24 godziny.</li>
                     </ol>
+                    <p class="layout-credit">Silnik listy: <a href="https://tsl.pages.dev/" target="_blank" rel="noopener">TheShittyList</a></p>
                 </div>
             </div>
         </main>

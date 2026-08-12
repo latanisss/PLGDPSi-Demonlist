@@ -1,26 +1,14 @@
-.tabs {
-    display: flex;
-    gap: 0.35rem;
-}
-
-.tabs .tab{
-    border: none;
-    cursor: pointer;
-    font: inherit;
-    padding: 0.75rem 1rem;
+.tabs { display: flex; border-bottom: 2px solid var(--color-border-strong); }
+.tabs .tab {
     margin: 0;
-    background-color: transparent;
+    padding: 0.7rem 1rem;
+    border: 0;
+    border-right: 1px solid var(--color-border);
+    background: transparent;
     color: var(--color-on-background);
-    border: 1px solid transparent;
-    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: "IBM Plex Mono", monospace;
+    text-transform: uppercase;
 }
-
-.tabs .tab.selected{
-    border-color: rgba(255, 80, 101, 0.28);
-    background: var(--color-primary-soft);
-    color: var(--color-primary-bright);
-}
-
-.tabs .tab:hover{
-    background-color: var(--color-background-hover);
-}
+.tabs .tab.selected { background: var(--color-on-background); color: var(--color-background); }
+.tabs .tab:hover { background: var(--color-background-hover); }

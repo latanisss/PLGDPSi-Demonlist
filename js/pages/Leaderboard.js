@@ -21,7 +21,7 @@ export default {
             <div class="page-leaderboard">
                 <div class="leaderboard-heading">
                     <div>
-                        <span class="eyebrow">PUNKTY • COMPLETIONS • PROGRESS</span>
+                        <span class="eyebrow">PLGDPSi // KLASYFIKACJA</span>
                         <h1>Ranking graczy</h1>
                         <p>Najlepsi gracze PLGDPSi wyliczani na żywo z rekordów demonlisty.</p>
                     </div>

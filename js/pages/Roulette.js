@@ -13,7 +13,7 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <div class="roulette-heading">
-                    <span class="eyebrow">TRYB WYZWANIA</span>
+                    <span class="eyebrow">PLGDPSi // TRYB LOSOWY</span>
                     <h1>Demon Roulette</h1>
                     <p>Losuj kolejne levele i przebijaj swój poprzedni procent.</p>
                 </div>
