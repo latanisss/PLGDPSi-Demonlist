@@ -63,10 +63,6 @@ export default {
                             <div class="type-title-sm">ID levelu</div>
                             <p>{{ level.id }}</p>
                         </li>
-                        <li>
-                            <div class="type-title-sm">Hasło</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
                     </ul>
                     <div class="section-heading">
                         <div>
@@ -113,7 +109,7 @@ export default {
                     </div>
                     <div class="og">
                         <span class="eyebrow">O PROJEKCIE</span>
-                        <h3>Polska scena GDPS</h3>
+                        <h3>PLGDPSi Demonlist</h3>
                         <p class="type-label-md">Layout oparty na projekcie <a href="https://tsl.pages.dev/" target="_blank" rel="noopener">TheShittyList</a>.</p>
                     </div>
                     <template v-if="editors">
@@ -138,11 +134,10 @@ export default {
                         </div>
                     </div>
                     <ol class="requirements">
-                        <li>Rekord musi być osiągnięty bez hacków. FPS bypass jest dozwolony do 360 FPS.</li>
                         <li>Sprawdź ID — run musi pochodzić z dokładnie tej wersji levelu, która widnieje na liście.</li>
                         <li>Nagranie musi zawierać dźwięk z gry albo kliknięcia/tapy. Sam edytowany dźwięk nie wystarczy.</li>
                         <li>Pokaż poprzednią próbę i pełną animację śmierci przed ukończeniem, chyba że completion było za pierwszym podejściem.</li>
-                        <li>Nagranie musi pokazywać dotarcie do endwalla.</li>
+                        <li>Nagranie musi pokazywać cały endscreen.</li>
                         <li>Secret routes, bug routes oraz easy mode są niedozwolone.</li>
                         <li>Po spadku levelu do Legacy rekordy przyjmujemy jeszcze przez 24 godziny.</li>
                     </ol>
