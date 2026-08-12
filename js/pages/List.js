@@ -108,7 +108,6 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <span class="eyebrow">O PROJEKCIE</span>
                         <h3>PLGDPSi Demonlist</h3>
                         <p class="type-label-md">Layout oparty na projekcie <a href="https://tsl.pages.dev/" target="_blank" rel="noopener">TheShittyList</a>.</p>
                     </div>
