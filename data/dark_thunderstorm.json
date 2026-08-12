@@ -6,5 +6,12 @@
     "verifier": "Bukaj5",
     "verification": "https://www.youtube.com/watch?v=k4A0kqtAnq8",
     "percentToQualify": 81,
-    "records": []
+    "records": [
+        {
+            "user": "Mv73k",
+            "link": "https://youtu.be/PPRSengil3o",
+            "percent": 100,
+            "hz": 1000
+        }
+    ]
 }
