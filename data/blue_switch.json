@@ -6,5 +6,12 @@
     "verifier": "skajer",
     "verification": "https://youtu.be/M9yf2NQZED0?si=Oj42ZJdgZC5QWltx",
     "percentToQualify": 81,
-    "records": []
+    "records": [
+        {
+            "user": "MrPenguin",
+            "link": "https://youtu.be/qja_UjJ8ais",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
 }
