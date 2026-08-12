@@ -24,7 +24,6 @@ export default {
             <div class="list-container">
                 <div class="panel-heading">
                     <div>
-                        <span class="eyebrow">PLGDPSi // INDEX</span>
                         <h2>Lista demonów</h2>
                     </div>
                     <span class="count-pill">{{ list?.length || 0 }} LEVELI</span>

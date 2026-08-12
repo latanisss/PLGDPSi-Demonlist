@@ -1,98 +1,48 @@
 body,
 button,
-input {
-    font-family: "Inter Tight", Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+input { font-family: "Inter", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3,
+.type-h1, .type-h2, .type-h3,
+.type-headline-lg, .type-headline-md, .type-headline-sm {
+    font-family: "Barlow Condensed", Arial Narrow, sans-serif;
+    font-weight: 800;
 }
 
-h1,
-h2,
-h3,
-.type-h1,
-.type-h2,
-.type-h3,
-.type-headline-lg,
-.type-headline-md,
-.type-headline-sm {
-    font-family: "Archivo Black", Impact, sans-serif;
-    text-transform: uppercase;
+h1, .type-h1, .type-headline-lg {
+    font-size: clamp(2.8rem, 5vw, 5.3rem);
+    line-height: 0.94;
+    letter-spacing: -0.035em;
 }
 
-h1,
-.type-h1,
-.type-headline-lg {
-    font-size: clamp(2.5rem, 5.4vw, 5.8rem);
-    line-height: 0.86;
-    font-weight: 400;
-    letter-spacing: -0.065em;
-}
-
-h2,
-.type-h2,
-.type-headline-md {
-    font-size: clamp(1.55rem, 2.5vw, 2.8rem);
-    line-height: 0.95;
-    font-weight: 400;
-    letter-spacing: -0.045em;
-}
-
-h3,
-.type-h3,
-.type-headline-sm {
-    font-size: clamp(1.05rem, 1.6vw, 1.4rem);
+h2, .type-h2, .type-headline-md {
+    font-size: clamp(1.7rem, 2.5vw, 2.5rem);
     line-height: 1;
-    font-weight: 400;
     letter-spacing: -0.025em;
 }
 
-h4,
-h5,
-h6,
-dt,
-.type-h4,
-.type-h5,
-.type-h6,
-.type-title-lg,
-.type-title-md,
-.type-title-sm,
+h3, .type-h3, .type-headline-sm {
+    font-size: clamp(1.15rem, 1.6vw, 1.5rem);
+    line-height: 1.1;
+}
+
+h4, h5, h6, dt,
+.type-h4, .type-h5, .type-h6,
+.type-title-lg, .type-title-md, .type-title-sm,
 .eyebrow {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.67rem;
+    font-size: 0.7rem;
     line-height: 1.4;
     font-weight: 700;
     letter-spacing: 0.09em;
     text-transform: uppercase;
 }
 
-label,
-input[type="text"],
-input[type="number"],
-.type-label-lg {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.82rem;
+label, input[type="text"], input[type="number"], .type-label-lg {
+    font-size: 0.9rem;
     line-height: 1.35;
     font-weight: 600;
 }
-
-.type-label-md {
-    font-size: 0.8rem;
-    line-height: 1.55;
-    font-weight: 500;
-}
-
-.type-label-sm {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.66rem;
-    line-height: 1.4;
-    font-weight: 600;
-}
-
-p,
-.type-body {
-    font-size: 0.91rem;
-    line-height: 1.55;
-    font-weight: 500;
-}
-
+.type-label-md { font-size: 0.8rem; line-height: 1.5; font-weight: 500; }
+.type-label-sm { font-size: 0.68rem; line-height: 1.4; font-weight: 600; }
+p, .type-body { font-size: 0.9rem; line-height: 1.6; font-weight: 450; }
 strong { font-weight: 700; }
