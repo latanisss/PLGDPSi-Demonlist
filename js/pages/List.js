@@ -139,7 +139,6 @@ export default {
                         <li>Secret routes, bug routes oraz easy mode są niedozwolone.</li>
                         <li>Po spadku levelu do Legacy rekordy przyjmujemy jeszcze przez 24 godziny.</li>
                     </ol>
-                    <p class="layout-credit">Silnik listy: <a href="https://tsl.pages.dev/" target="_blank" rel="noopener">TheShittyList</a></p>
                 </div>
             </div>
         </main>

@@ -1,4 +1,0 @@
-.btn { min-height: 2.75rem; margin:0; padding:0.7rem 1rem; border:1px solid var(--color-primary); border-radius:0.25rem; background:var(--color-primary); color:#fff; cursor:pointer; font:inherit; font-weight:700; }
-.btn:disabled { opacity:.45; cursor:not-allowed; }
-.btn:not(:disabled):hover { background:var(--color-primary-bright); }
-.btn.danger { background:transparent; color:var(--color-primary-bright); }
