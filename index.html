@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=1024" />
-        <title>PLGDPSi Demonlist</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#09090d" />
+        <meta
+            name="description"
+            content="Oficjalna demonlista społeczności PLGDPSi — levele, rekordy i ranking graczy."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://plgdpsidemonlist.vercel.app/" />
+        <meta property="og:title" content="PLGDPSi Demonlist" />
+        <meta property="og:description" content="Levele, rekordy i ranking polskiej społeczności PLGDPSi." />
+        <meta property="og:image" content="https://plgdpsidemonlist.vercel.app/og.png" />
+        <meta property="og:image:alt" content="Polish GDPS Infinity" />
+        <meta property="og:image:width" content="1915" />
+        <meta property="og:image:height" content="1017" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <title>PLGDPSi Demonlist — ranking społeczności</title>
 
         <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
         <link rel="icon" href="/ikonka_listy.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" type="text/css" href="/css/reset.css" />
@@ -36,24 +50,29 @@
     </head>
     <body id="app">
         <header :class="{ dark: store.dark }">
-            <div class="logo">
-                <h2>PLGDPSi Demonlist</h2>
-                <p>v1.0.0</p>
-            </div>
+            <router-link class="brand" to="/" aria-label="PLGDPSi Demonlist — strona główna">
+                <img class="brand__mark" src="/ikonka_listy.png" alt="" />
+                <span class="brand__copy">
+                    <strong>PLGDPSi</strong>
+                    <small>DEMONLIST</small>
+                </span>
+            </router-link>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">List</span>
+                    <span class="type-label-lg">Lista</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
+                    <span class="type-label-lg">Ranking</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
-                    <span class="type-label-lg">Roulette</span>
+                    <span class="type-label-lg">Ruletka</span>
                 </router-link>
                 <div class="nav__actions">
                     <button
                         class="nav__icon"
                         @click.prevent="store.toggleDark()"
+                        :aria-label="store.dark ? 'Włącz jasny motyw' : 'Włącz ciemny motyw'"
+                        :title="store.dark ? 'Jasny motyw' : 'Ciemny motyw'"
                     >
                         <img
                             :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
@@ -61,7 +80,7 @@
                         />
                     </button>
                     <!-- Replace the '#' with your discord server's invite-->
-                    <a class="nav__icon" href="https://discord.gg/wdyU3grpzy">
+                    <a class="nav__icon" href="https://discord.gg/wdyU3grpzy" target="_blank" rel="noopener" aria-label="Discord PLGDPSi">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
                     <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
@@ -69,7 +88,8 @@
                         class="nav__cta type-label-lg"
                         href="https://discord.gg/Ec88nuWx4F"
                         target="_blank"
-                        >Dodaj swój rekord!</a
+                        rel="noopener"
+                        >Dodaj rekord</a
                     >
                 </div>
             </nav>

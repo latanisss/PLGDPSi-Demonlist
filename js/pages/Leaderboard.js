@@ -19,33 +19,48 @@ export default {
         </main>
         <main v-else class="page-leaderboard-container">
             <div class="page-leaderboard">
+                <div class="leaderboard-heading">
+                    <div>
+                        <span class="eyebrow">PUNKTY • COMPLETIONS • PROGRESS</span>
+                        <h1>Ranking graczy</h1>
+                        <p>Najlepsi gracze PLGDPSi wyliczani na żywo z rekordów demonlisty.</p>
+                    </div>
+                    <span class="count-pill">{{ leaderboard.length }} GRACZY</span>
+                </div>
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Ranking może być niepełny — nie udało się wczytać: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in leaderboard">
+                        <tr v-for="(ientry, i) in leaderboard" :class="{ podium: i < 3 }">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
-                            </td>
-                            <td class="total">
-                                <p class="type-label-lg">{{ localize(ientry.total) }}</p>
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
+                                    <small>{{ localize(ientry.total) }} pkt</small>
                                 </button>
                             </td>
                         </tr>
                     </table>
                 </div>
                 <div class="player-container">
-                    <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h3>{{ entry.total }}</h3>
-                        <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
+                    <div class="player" v-if="entry">
+                        <div class="player-hero">
+                            <span class="rank-badge">#{{ selected + 1 }}</span>
+                            <div>
+                                <span class="eyebrow">ŁĄCZNY WYNIK</span>
+                                <h1>{{ entry.user }}</h1>
+                                <strong>{{ localize(entry.total) }} pkt</strong>
+                            </div>
+                        </div>
+                        <div class="section-heading" v-if="entry.verified.length > 0">
+                            <div><span class="eyebrow">ZWERYFIKOWANE</span><h2>Weryfikacje</h2></div>
+                            <span class="count-pill">{{ entry.verified.length }}</span>
+                        </div>
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
@@ -59,7 +74,10 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">Completed ({{ entry.completed.length }})</h2>
+                        <div class="section-heading" v-if="entry.completed.length > 0">
+                            <div><span class="eyebrow">UKOŃCZONE</span><h2>Completions</h2></div>
+                            <span class="count-pill">{{ entry.completed.length }}</span>
+                        </div>
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
@@ -73,7 +91,10 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">Progressed ({{entry.progressed.length}})</h2>
+                        <div class="section-heading" v-if="entry.progressed.length > 0">
+                            <div><span class="eyebrow">PROGRESS</span><h2>Progresy</h2></div>
+                            <span class="count-pill">{{ entry.progressed.length }}</span>
+                        </div>
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
@@ -94,7 +115,7 @@ export default {
     `,
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.leaderboard[this.selected] || null;
         },
     },
     async mounted() {

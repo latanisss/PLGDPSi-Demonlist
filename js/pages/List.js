@@ -22,8 +22,15 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
+                <div class="panel-heading">
+                    <div>
+                        <span class="eyebrow">AKTUALNY RANKING</span>
+                        <h2>Demonlista</h2>
+                    </div>
+                    <span class="count-pill">{{ list?.length || 0 }} LEVELI</span>
+                </div>
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="([level, err], i) in list" :class="{ podium: i < 3 }">
                         <td class="rank">
                             <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
@@ -38,28 +45,40 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="level">
+                    <div class="level-kicker">
+                        <span class="rank-badge">#{{ selected + 1 }}</span>
+                        <span>{{ selected + 1 <= 75 ? 'MAIN LIST' : selected + 1 <= 150 ? 'EXTENDED LIST' : 'LEGACY' }}</span>
+                    </div>
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <div class="video-shell">
+                        <iframe class="video" id="videoframe" :src="video" title="Wideo levelu" loading="lazy" allowfullscreen></iframe>
+                    </div>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed</div>
+                            <div class="type-title-sm">Punkty za 100%</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">ID</div>
+                            <div class="type-title-sm">ID levelu</div>
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
+                            <div class="type-title-sm">Hasło</div>
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                     </ul>
-                    <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept new records.</p>
-                    <table class="records">
+                    <div class="section-heading">
+                        <div>
+                            <span class="eyebrow">ZWERYFIKOWANE RUNY</span>
+                            <h2>Rekordy</h2>
+                        </div>
+                        <span class="count-pill">{{ level.records.length }}</span>
+                    </div>
+                    <p class="qualification" v-if="selected + 1 <= 75">Próg kwalifikacyjny: <strong>{{ level.percentToQualify }}%</strong></p>
+                    <p class="qualification" v-else-if="selected +1 <= 150">Próg kwalifikacyjny: <strong>100%</strong></p>
+                    <p class="qualification" v-else>Ten level nie przyjmuje już nowych rekordów.</p>
+                    <table class="records" v-if="level.records.length">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
@@ -68,13 +87,20 @@ export default {
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
                             <td class="mobile">
-                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                                <span v-if="record.mobile" class="mobile-badge">
+                                    <img :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="">
+                                    MOBILE
+                                </span>
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
                             </td>
                         </tr>
                     </table>
+                    <div class="empty-state" v-else>
+                        <strong>Brak rekordów</strong>
+                        <span>Bądź pierwszą osobą, która ukończy ten level.</span>
+                    </div>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -86,10 +112,17 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
+                        <span class="eyebrow">O PROJEKCIE</span>
+                        <h3>Polska scena GDPS</h3>
+                        <p class="type-label-md">Layout oparty na projekcie <a href="https://tsl.pages.dev/" target="_blank" rel="noopener">TheShittyList</a>.</p>
                     </div>
                     <template v-if="editors">
-                        <h3>List Editors</h3>
+                        <div class="section-heading compact">
+                            <div>
+                                <span class="eyebrow">ZESPÓŁ</span>
+                                <h3>Opiekunowie listy</h3>
+                            </div>
+                        </div>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -98,31 +131,21 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
-                    <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
-                    </p>
-                    <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
-                    </p>
-                    <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
-                    </p>
-                    <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
-                    </p>
-                    <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
-                    </p>
-                    <p>
-                        Do not use secret routes or bug routes
-                    </p>
-                    <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
-                    </p>
+                    <div class="section-heading compact">
+                        <div>
+                            <span class="eyebrow">ZASADY</span>
+                            <h3>Wymagania rekordu</h3>
+                        </div>
+                    </div>
+                    <ol class="requirements">
+                        <li>Rekord musi być osiągnięty bez hacków. FPS bypass jest dozwolony do 360 FPS.</li>
+                        <li>Sprawdź ID — run musi pochodzić z dokładnie tej wersji levelu, która widnieje na liście.</li>
+                        <li>Nagranie musi zawierać dźwięk z gry albo kliknięcia/tapy. Sam edytowany dźwięk nie wystarczy.</li>
+                        <li>Pokaż poprzednią próbę i pełną animację śmierci przed ukończeniem, chyba że completion było za pierwszym podejściem.</li>
+                        <li>Nagranie musi pokazywać dotarcie do endwalla.</li>
+                        <li>Secret routes, bug routes oraz easy mode są niedozwolone.</li>
+                        <li>Po spadku levelu do Legacy rekordy przyjmujemy jeszcze przez 24 godziny.</li>
+                    </ol>
                 </div>
             </div>
         </main>
@@ -138,7 +161,7 @@ export default {
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list?.[this.selected]?.[0] || null;
         },
         video() {
             if (!this.level.showcase) {

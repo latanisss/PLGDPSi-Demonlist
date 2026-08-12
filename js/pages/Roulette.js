@@ -12,30 +12,33 @@ export default {
         </main>
         <main v-else class="page-roulette">
             <div class="sidebar">
-                <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
-                </p>
+                <div class="roulette-heading">
+                    <span class="eyebrow">TRYB WYZWANIA</span>
+                    <h1>Demon Roulette</h1>
+                    <p>Losuj kolejne levele i przebijaj swój poprzedni procent.</p>
+                </div>
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Main List</label>
+                        <label for="main">Main List · #1–75</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Extended List</label>
+                        <label for="extended">Extended List · #76–150</label>
                     </div>
-                    <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
+                    <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Rozpocznij' : 'Zacznij od nowa'}}</Btn>
                 </form>
-                <p class="type-label-md" style="color: #aaa">
-                    The roulette saves automatically.
-                </p>
                 <form class="save">
-                    <p>Manual Load/Save</p>
+                    <span class="eyebrow">ZAPIS GRY</span>
+                    <p>Postęp zapisuje się automatycznie w tej przeglądarce.</p>
                     <div class="btns">
-                        <Btn @click.native.prevent="onImport">Import</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
+                        <Btn @click.native.prevent="onImport">Importuj</Btn>
+                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Eksportuj</Btn>
                     </div>
                 </form>
+                <p class="roulette-credit type-label-md">
+                    Na podstawie Extreme Demon Roulette autorstwa <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank" rel="noopener">matcool</a>.
+                </p>
             </div>
             <section class="levels-container">
                 <div class="levels">
@@ -63,16 +66,17 @@ export default {
                             </div>
                             <form class="actions" v-if="!givenUp">
                                 <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage + 1" max=100>
-                                <Btn @click.native.prevent="onDone">Done</Btn>
-                                <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Give Up</Btn>
+                                <Btn @click.native.prevent="onDone">Zapisz wynik</Btn>
+                                <Btn @click.native.prevent="onGiveUp" class="danger">Poddaj się</Btn>
                             </form>
                         </div>
                         <!-- Results -->
                         <div v-if="givenUp || hasCompleted" class="results">
-                            <h1>Results</h1>
-                            <p>Number of levels: {{ progression.length }}</p>
-                            <p>Highest percent: {{ currentPercentage }}%</p>
-                            <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Show remaining levels</Btn>
+                            <span class="eyebrow">PODSUMOWANIE</span>
+                            <h1>Twój wynik</h1>
+                            <p>Ukończone levele: {{ progression.length }}</p>
+                            <p>Najwyższy procent: {{ currentPercentage }}%</p>
+                            <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Pokaż pozostałe levele</Btn>
                         </div>
                         <!-- Remaining Levels -->
                         <template v-if="givenUp && showRemaining">
@@ -137,7 +141,7 @@ export default {
             return this.progression[this.progression.length - 1] || 0;
         },
         placeholder() {
-            return `At least ${this.currentPercentage + 1}%`;
+            return `Minimum ${this.currentPercentage + 1}%`;
         },
         hasCompleted() {
             return (
@@ -159,7 +163,7 @@ export default {
         getYoutubeIdFromUrl,
         async onStart() {
             if (this.isActive) {
-                this.showToast('Give up before starting a new roulette.');
+                this.showToast('Najpierw zakończ aktualną ruletkę.');
                 return;
             }
 
@@ -174,7 +178,7 @@ export default {
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    'List is currently broken. Wait until it\'s fixed to start a roulette.',
+                    'Lista jest chwilowo niedostępna. Spróbuj ponownie później.',
                 );
                 return;
             }
@@ -218,7 +222,7 @@ export default {
                 this.percentage <= this.currentPercentage ||
                 this.percentage > 100
             ) {
-                this.showToast('Invalid percentage.');
+                this.showToast('Podaj poprawny procent.');
                 return;
             }
 
@@ -236,7 +240,7 @@ export default {
         onImport() {
             if (
                 this.isActive &&
-                !window.confirm('This will overwrite the currently running roulette. Continue?')
+                !window.confirm('Import zastąpi aktualną ruletkę. Kontynuować?')
             ) {
                 return;
             }
@@ -249,7 +253,7 @@ export default {
             const file = this.fileInput.files[0];
 
             if (file.type !== 'application/json') {
-                this.showToast('Invalid file.');
+                this.showToast('Nieprawidłowy plik.');
                 return;
             }
 
@@ -257,7 +261,7 @@ export default {
                 const roulette = JSON.parse(await file.text());
 
                 if (!roulette.levels || !roulette.progression) {
-                    this.showToast('Invalid file.');
+                    this.showToast('Nieprawidłowy plik.');
                     return;
                 }
 
@@ -268,7 +272,7 @@ export default {
                 this.showRemaining = false;
                 this.percentage = undefined;
             } catch {
-                this.showToast('Invalid file.');
+                this.showToast('Nieprawidłowy plik.');
                 return;
             }
         },
