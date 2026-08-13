@@ -12,6 +12,12 @@
             "link": "https://youtu.be/jJQ2J8QiDgo?si=P7iDC-yjLdr5dln3",
             "percent": 100,
             "hz": 200
+        },
+        {
+            "user": "spectral",
+            "link": "https://www.youtube.com/watch?v=IV8PR3gVVrs",
+            "percent": 85,
+            "hz": 144
         }
     ]
 }
