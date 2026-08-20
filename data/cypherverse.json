@@ -12,6 +12,12 @@
             "link": "https://www.youtube.com/watch?v=WqKfqYCYK7I",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "mv73k",
+            "link": "https://www.youtube.com/watch?v=YQESBTcogCw",
+            "percent": 100,
+            "hz": 1000
         }
     ]
 }
