@@ -24,6 +24,12 @@
             "link": "https://youtu.be/bfw56FxcUT8",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "KPC",
+            "link": "https://www.youtube.com/watch?v=ErT3rKPw4t0",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
