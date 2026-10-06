@@ -30,6 +30,12 @@
             "link": "https://www.youtube.com/watch?v=ErT3rKPw4t0",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "PolskiTomeq",
+            "link": "https://youtu.be/z0-X6Ovtznc",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
