@@ -1,17 +1,17 @@
 {
-    "id": 1734,
-    "name": "marian never clear",
-    "author": "Bukaj5",
-    "creators": [],
-    "verifier": "Marian939",
-    "verification": "https://medal.tv/games/geometry-dash/clips/nkkSOnNtXT7Rj64IG?invite=cr-MSxuamcsNTA1MDI0Mzg4",
-    "percentToQualify": 81,
-    "records": [
-        {
-            "user": "PolskiTomeq",
-            "link": "https://youtu.be/t8804LN6BTY",
-            "percent": 100,
-            "hz": 360
-        }
-    ]
+  "id": 1734,
+  "name": "marian never clear",
+  "author": "bukaj5",
+  "creators": [],
+  "verifier": "marian939",
+  "verification": "https://medal.tv/games/geometry-dash/clips/nkkSOnNtXT7Rj64IG?invite=cr-MSxuamcsNTA1MDI0Mzg4",
+  "percentToQualify": 81,
+  "records": [
+    {
+      "user": "polskitomeq",
+      "link": "https://youtu.be/t8804LN6BTY",
+      "percent": 100,
+      "hz": 360
+    }
+  ]
 }

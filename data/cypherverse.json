@@ -1,29 +1,29 @@
 {
-    "id": 149,
-    "name": "CYPHERVERSE",
-    "author": "zbumi",
-    "creators": [],
-    "verifier": "MsVxef",
-    "verification": "https://www.youtube.com/watch?v=siLR4TJNRF0",
-    "percentToQualify": 81,
-    "records": [
-        {
-            "user": "MrPenguin",
-            "link": "https://www.youtube.com/watch?v=WqKfqYCYK7I",
-            "percent": 100,
-            "hz": 480
-        },
-        {
-            "user": "mv73k",
-            "link": "https://www.youtube.com/watch?v=YQESBTcogCw",
-            "percent": 100,
-            "hz": 1000
-        },
-        {
-            "user": "zbumi",
-            "link": "https://medal.tv/games/geometry-dash/clips/nFH43MqPd083IE2nw?invite=cr-MSxNZ1UsNTU4OTU5ODUy",
-            "percent": 100,
-            "hz": 480
-        }
-    ]
+  "id": 149,
+  "name": "CYPHERVERSE",
+  "author": "zbumi",
+  "creators": [],
+  "verifier": "msvxef",
+  "verification": "https://www.youtube.com/watch?v=siLR4TJNRF0",
+  "percentToQualify": 81,
+  "records": [
+    {
+      "user": "mrpenguin",
+      "link": "https://www.youtube.com/watch?v=WqKfqYCYK7I",
+      "percent": 100,
+      "hz": 480
+    },
+    {
+      "user": "mv73k",
+      "link": "https://www.youtube.com/watch?v=YQESBTcogCw",
+      "percent": 100,
+      "hz": 1000
+    },
+    {
+      "user": "zbumi",
+      "link": "https://medal.tv/games/geometry-dash/clips/nFH43MqPd083IE2nw?invite=cr-MSxNZ1UsNTU4OTU5ODUy",
+      "percent": 100,
+      "hz": 480
+    }
+  ]
 }

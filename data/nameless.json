@@ -1,84 +1,84 @@
 {
-    "id": 118,
-    "name": "na me le ss",
-    "author": "MsVxef",
-    "creators": [],
-    "verifier": "MsVxef",
-    "verification": "https://youtu.be/V93DByIhb9s?si=oRQT6glwDcBWBU8X",
-    "percentToQualify": "81",
-    "records": [
-        {
-            "user": "MayXaX",
-            "link": "https://medal.tv/games/geometry-dash/clips/mAfQeGQutihbYJikg?invite=cr-MSwzNXcsMzg2Mzc3NzM0",
-            "percent": 100,
-            "hz": 200
-        },
-        {
-            "user": "KPC",
-            "link": "https://youtu.be/M9Gl-K6vlEI",
-            "percent": 100,
-            "hz": 280
-        },
-        {
-            "user": "LatanisGD",
-            "link": "https://youtu.be/x7DEw-r8q2M",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "zbumi",
-            "link": "https://medal.tv/games/geometry-dash/clips/nFl4l7A7c1cSXkC4K?invite=cr-MSxxcXIsNTU4OTU5ODUy",
-            "percent": 100,
-            "hz": 480
-        },
-        {
-            "user": "Stramgle",
-            "link": "https://youtu.be/qrQy4jSzAt4?si=vRMrsBWX_40L6kMG",
-            "percent": 100,
-            "hz": 90
-        },
-        {
-            "user": "RooksGD",
-            "link": "https://youtu.be/69J9Nmr0SFE?is=BHPVjJjBBbfcjxPQ",
-            "percent": 100,
-            "hz": 170,
-            "mobile": true
-        },
-        {
-            "user": "MrPenguin",
-            "link": "https://youtu.be/5kGpBCdyUC8",
-            "percent": 100,
-            "hz": 480
-        },
-        {
-            "user": "Mv73k",
-            "link": "https://youtu.be/RK_BsimA560",
-            "percent": 100,
-            "hz": 1000
-        },
-        {
-            "user": "Maslak",
-            "link": "https://youtu.be/RLqzx49CUBE",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "SnowyPL",
-            "link": "https://cdn.discordapp.com/attachments/1540839612820230224/1542141577126871050/VID_20260822112343234.mp4?ex=6a9026c3&is=6a8ed543&hm=afaddba7f2fcb3352633168ccb9f6b1d559fdd262f67130c31b35e1d20d7d2f9&",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "PolskiTomeq",
-            "link": "https://youtu.be/9WvMXvq_c_U",
-            "percent": 100,
-            "hz": 480
-        },
-        {
-            "user": "Zo1ty",
-            "link": "https://youtu.be/BdrO0Yo_exE",
-            "percent": 100,
-            "hz": 240
-        }
-    ]
+  "id": 118,
+  "name": "na me le ss",
+  "author": "msvxef",
+  "creators": [],
+  "verifier": "msvxef",
+  "verification": "https://youtu.be/V93DByIhb9s?si=oRQT6glwDcBWBU8X",
+  "percentToQualify": "81",
+  "records": [
+    {
+      "user": "mayxax",
+      "link": "https://medal.tv/games/geometry-dash/clips/mAfQeGQutihbYJikg?invite=cr-MSwzNXcsMzg2Mzc3NzM0",
+      "percent": 100,
+      "hz": 200
+    },
+    {
+      "user": "kpc",
+      "link": "https://youtu.be/M9Gl-K6vlEI",
+      "percent": 100,
+      "hz": 280
+    },
+    {
+      "user": "latanisgd",
+      "link": "https://youtu.be/x7DEw-r8q2M",
+      "percent": 100,
+      "hz": 360
+    },
+    {
+      "user": "zbumi",
+      "link": "https://medal.tv/games/geometry-dash/clips/nFl4l7A7c1cSXkC4K?invite=cr-MSxxcXIsNTU4OTU5ODUy",
+      "percent": 100,
+      "hz": 480
+    },
+    {
+      "user": "stramgle",
+      "link": "https://youtu.be/qrQy4jSzAt4?si=vRMrsBWX_40L6kMG",
+      "percent": 100,
+      "hz": 90
+    },
+    {
+      "user": "rooksgd",
+      "link": "https://youtu.be/69J9Nmr0SFE?is=BHPVjJjBBbfcjxPQ",
+      "percent": 100,
+      "hz": 170,
+      "mobile": true
+    },
+    {
+      "user": "mrpenguin",
+      "link": "https://youtu.be/5kGpBCdyUC8",
+      "percent": 100,
+      "hz": 480
+    },
+    {
+      "user": "mv73k",
+      "link": "https://youtu.be/RK_BsimA560",
+      "percent": 100,
+      "hz": 1000
+    },
+    {
+      "user": "maslak",
+      "link": "https://youtu.be/RLqzx49CUBE",
+      "percent": 100,
+      "hz": 240
+    },
+    {
+      "user": "snowypl",
+      "link": "https://cdn.discordapp.com/attachments/1540839612820230224/1542141577126871050/VID_20260822112343234.mp4?ex=6a9026c3&is=6a8ed543&hm=afaddba7f2fcb3352633168ccb9f6b1d559fdd262f67130c31b35e1d20d7d2f9&",
+      "percent": 100,
+      "hz": 360
+    },
+    {
+      "user": "polskitomeq",
+      "link": "https://youtu.be/9WvMXvq_c_U",
+      "percent": 100,
+      "hz": 480
+    },
+    {
+      "user": "zo1ty",
+      "link": "https://youtu.be/BdrO0Yo_exE",
+      "percent": 100,
+      "hz": 240
+    }
+  ]
 }

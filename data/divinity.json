@@ -1,17 +1,17 @@
 {
-    "id": 1774,
-    "name": "Divinity",
-    "author": "mv73k",
-    "creators": [],
-    "verifier": "mv73k",
-    "verification": "https://youtu.be/PKz74WIOwOs",
-    "percentToQualify": 64,
-    "records": [
-        {
-            "user": "Mone",
-            "link": "https://youtu.be/MC35eYg3yAM",
-            "percent": 100,
-            "hz": 360
-        }
-    ]
+  "id": 1774,
+  "name": "Divinity",
+  "author": "mv73k",
+  "creators": [],
+  "verifier": "mv73k",
+  "verification": "https://youtu.be/PKz74WIOwOs",
+  "percentToQualify": 64,
+  "records": [
+    {
+      "user": "mone",
+      "link": "https://youtu.be/MC35eYg3yAM",
+      "percent": 100,
+      "hz": 360
+    }
+  ]
 }
