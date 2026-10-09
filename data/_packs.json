@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:29:56.297Z",
+  "updatedAt": "2026-10-09T13:39:33.959Z",
   "tiers": [
     {
       "key": "pyl",
@@ -29,7 +29,7 @@
       "name": "Layout Slop Pack",
       "tier": "pyl",
       "tierName": "Pył",
-      "points": 9.1,
+      "points": 14.8,
       "levels": [
         "ciemny_ocean",
         "nameless",
@@ -39,9 +39,9 @@
     {
       "id": "packmv0zm0jc",
       "name": "Knock-off Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 97.9,
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 228.4,
       "levels": [
         "SampleLevel1",
         "dark_thunderstorm",
@@ -51,9 +51,9 @@
     {
       "id": "packmv0zo6e5",
       "name": "Top 1 Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 458.4,
+      "tier": "otchlan",
+      "tierName": "Otchłań",
+      "points": 623.6,
       "levels": [
         "mejirushi",
         "divinity",
@@ -63,13 +63,25 @@
     {
       "id": "packmv0zouah",
       "name": "Top 1 Pack II",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 149.9,
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 341.4,
       "levels": [
         "hellcastle",
         "overdrive",
         "SampleLevel1"
+      ]
+    },
+    {
+      "id": "packmv10hpwe",
+      "name": "Bukaj5 Pack",
+      "tier": "kometa",
+      "tierName": "Kometa",
+      "points": 43.1,
+      "levels": [
+        "dark_thunderstorm",
+        "marian_never_clear",
+        "srakupen_hell"
       ]
     }
   ]
