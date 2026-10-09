@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:07:52.233Z",
+  "updatedAt": "2026-10-09T14:08:37.701Z",
   "tiers": [
     {
       "key": "pyl",
@@ -180,6 +180,18 @@
         "hellcastle",
         "hubert_circles_infinity",
         "Sample_Level_3"
+      ]
+    },
+    {
+      "id": "packmv11jcd5",
+      "name": "mv73k Pack",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 343.3,
+      "levels": [
+        "mejirushi",
+        "divinity",
+        "ciemne_fale"
       ]
     }
   ]
