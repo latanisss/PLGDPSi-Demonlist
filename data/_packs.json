@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:08:37.701Z",
+  "updatedAt": "2026-10-09T14:11:38.398Z",
   "tiers": [
     {
       "key": "pyl",
@@ -37,39 +37,15 @@
       ]
     },
     {
-      "id": "packmv0zm0jc",
-      "name": "Knock-off Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 130.5,
+      "id": "packmv11a38v",
+      "name": "Przedszkole Pack",
+      "tier": "pyl",
+      "tierName": "Pył",
+      "points": 10.2,
       "levels": [
-        "SampleLevel1",
-        "dark_thunderstorm",
-        "closecendo"
-      ]
-    },
-    {
-      "id": "packmv0zo6e5",
-      "name": "Top 1 Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 356.3,
-      "levels": [
-        "mejirushi",
-        "divinity",
-        "hellcastle"
-      ]
-    },
-    {
-      "id": "packmv0zouah",
-      "name": "Top 1 Pack II",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 195.1,
-      "levels": [
-        "hellcastle",
-        "overdrive",
-        "SampleLevel1"
+        "nameless",
+        "ciemny_ocean",
+        "dorcelessness"
       ]
     },
     {
@@ -87,8 +63,8 @@
     {
       "id": "packmv10imrb",
       "name": "Dark Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
       "points": 95.2,
       "levels": [
         "ciemne_fale",
@@ -97,27 +73,15 @@
       ]
     },
     {
-      "id": "packmv10jejn",
-      "name": "skajer Pack",
+      "id": "packmv0zm0jc",
+      "name": "Knock-off Pack",
       "tier": "gwiazda",
       "tierName": "Gwiazda",
-      "points": 149,
+      "points": 130.5,
       "levels": [
-        "hellcastle",
         "SampleLevel1",
-        "blue_switch"
-      ]
-    },
-    {
-      "id": "packmv11a38v",
-      "name": "Przedszkole Pack",
-      "tier": "pyl",
-      "tierName": "Pył",
-      "points": 10.2,
-      "levels": [
-        "nameless",
-        "ciemny_ocean",
-        "dorcelessness"
+        "dark_thunderstorm",
+        "closecendo"
       ]
     },
     {
@@ -147,10 +111,22 @@
       ]
     },
     {
+      "id": "packmv10jejn",
+      "name": "skajer Pack",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 149,
+      "levels": [
+        "hellcastle",
+        "SampleLevel1",
+        "blue_switch"
+      ]
+    },
+    {
       "id": "packmv11ezlc",
       "name": "D(uze uda) Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
+      "tier": "kolos",
+      "tierName": "Kolos",
       "points": 152.2,
       "levels": [
         "divinity",
@@ -159,10 +135,22 @@
       ]
     },
     {
+      "id": "packmv0zouah",
+      "name": "Top 1 Pack II",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 195.1,
+      "levels": [
+        "hellcastle",
+        "overdrive",
+        "SampleLevel1"
+      ]
+    },
+    {
       "id": "packmv11ggm8",
       "name": "M Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
+      "tier": "kolos",
+      "tierName": "Kolos",
       "points": 198.9,
       "levels": [
         "mejirushi",
@@ -173,8 +161,8 @@
     {
       "id": "packmv11i7z0",
       "name": "H Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
+      "tier": "kolos",
+      "tierName": "Kolos",
       "points": 216,
       "levels": [
         "hellcastle",
@@ -185,13 +173,25 @@
     {
       "id": "packmv11jcd5",
       "name": "mv73k Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
+      "tier": "otchlan",
+      "tierName": "Otchłań",
       "points": 343.3,
       "levels": [
         "mejirushi",
         "divinity",
         "ciemne_fale"
+      ]
+    },
+    {
+      "id": "packmv0zo6e5",
+      "name": "Top 1 Pack",
+      "tier": "otchlan",
+      "tierName": "Otchłań",
+      "points": 356.3,
+      "levels": [
+        "mejirushi",
+        "divinity",
+        "hellcastle"
       ]
     }
   ]
