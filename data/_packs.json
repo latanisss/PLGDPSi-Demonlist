@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:03:13.637Z",
+  "updatedAt": "2026-10-09T14:04:28.655Z",
   "tiers": [
     {
       "key": "pyl",
@@ -131,6 +131,19 @@
         "ciemny_ocean",
         "closecendo",
         "cypherverse"
+      ]
+    },
+    {
+      "id": "packmv11dvyj",
+      "name": "MsVxef Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 173,
+      "levels": [
+        "hubert_circles_infinity",
+        "vertiti",
+        "SAMPLELEVEL2",
+        "nameless"
       ]
     }
   ]
