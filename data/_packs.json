@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:04:28.655Z",
+  "updatedAt": "2026-10-09T14:05:21.479Z",
   "tiers": [
     {
       "key": "pyl",
@@ -144,6 +144,18 @@
         "vertiti",
         "SAMPLELEVEL2",
         "nameless"
+      ]
+    },
+    {
+      "id": "packmv11ezlc",
+      "name": "D(uze uda) Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 152.2,
+      "levels": [
+        "divinity",
+        "dark_thunderstorm",
+        "dear_nostalgists_19"
       ]
     }
   ]
