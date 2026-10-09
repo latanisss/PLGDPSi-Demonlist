@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:15:00.139Z",
+  "updatedAt": "2026-10-09T13:16:38.895Z",
   "tiers": [
     {
       "key": "pyl",
@@ -46,6 +46,18 @@
         "SampleLevel1",
         "dark_thunderstorm",
         "closecendo"
+      ]
+    },
+    {
+      "id": "packmv0zo6e5",
+      "name": "Top 1 Pack",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 458.4,
+      "levels": [
+        "mejirushi",
+        "divinity",
+        "hellcastle"
       ]
     }
   ]
