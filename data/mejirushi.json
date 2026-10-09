@@ -6,5 +6,12 @@
     "verifier": "mv73k",
     "verification": "https://youtu.be/UcbiVLO2qIk",
     "percentToQualify": 81,
-    "records": []
+    "records": [
+        {
+            "user": "mone",
+            "link": "https://youtu.be/XzA3fhq4a0k",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
 }
