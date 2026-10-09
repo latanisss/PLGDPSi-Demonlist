@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:40:59.034Z",
+  "updatedAt": "2026-10-09T14:01:33.029Z",
   "tiers": [
     {
       "key": "pyl",
@@ -29,7 +29,7 @@
       "name": "Layout Slop Pack",
       "tier": "pyl",
       "tierName": "Pył",
-      "points": 14.8,
+      "points": 8.5,
       "levels": [
         "ciemny_ocean",
         "nameless",
@@ -41,7 +41,7 @@
       "name": "Knock-off Pack",
       "tier": "gwiazda",
       "tierName": "Gwiazda",
-      "points": 228.4,
+      "points": 130.5,
       "levels": [
         "SampleLevel1",
         "dark_thunderstorm",
@@ -51,9 +51,9 @@
     {
       "id": "packmv0zo6e5",
       "name": "Top 1 Pack",
-      "tier": "otchlan",
-      "tierName": "Otchłań",
-      "points": 623.6,
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 356.3,
       "levels": [
         "mejirushi",
         "divinity",
@@ -63,9 +63,9 @@
     {
       "id": "packmv0zouah",
       "name": "Top 1 Pack II",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 341.4,
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 195.1,
       "levels": [
         "hellcastle",
         "overdrive",
@@ -75,9 +75,9 @@
     {
       "id": "packmv10hpwe",
       "name": "Bukaj5 Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 43.1,
+      "tier": "pyl",
+      "tierName": "Pył",
+      "points": 24.6,
       "levels": [
         "dark_thunderstorm",
         "marian_never_clear",
@@ -87,9 +87,9 @@
     {
       "id": "packmv10imrb",
       "name": "Dark Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 166.6,
+      "tier": "kometa",
+      "tierName": "Kometa",
+      "points": 95.2,
       "levels": [
         "ciemne_fale",
         "dark_thunderstorm",
@@ -99,13 +99,25 @@
     {
       "id": "packmv10jejn",
       "name": "skajer Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 260.8,
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 149,
       "levels": [
         "hellcastle",
         "SampleLevel1",
         "blue_switch"
+      ]
+    },
+    {
+      "id": "packmv11a38v",
+      "name": "Przedszkole Pack",
+      "tier": "pyl",
+      "tierName": "Pył",
+      "points": 10.2,
+      "levels": [
+        "nameless",
+        "ciemny_ocean",
+        "dorcelessness"
       ]
     }
   ]
