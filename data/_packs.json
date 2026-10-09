@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:13:20.792Z",
+  "updatedAt": "2026-10-09T13:15:00.139Z",
   "tiers": [
     {
       "key": "pyl",
@@ -34,6 +34,18 @@
         "ciemny_ocean",
         "nameless",
         "cypherverse"
+      ]
+    },
+    {
+      "id": "packmv0zm0jc",
+      "name": "Knock-off Pack",
+      "tier": "kometa",
+      "tierName": "Kometa",
+      "points": 97.9,
+      "levels": [
+        "SampleLevel1",
+        "dark_thunderstorm",
+        "closecendo"
       ]
     }
   ]
