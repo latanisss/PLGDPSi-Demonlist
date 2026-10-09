@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:39:33.959Z",
+  "updatedAt": "2026-10-09T13:40:59.034Z",
   "tiers": [
     {
       "key": "pyl",
@@ -82,6 +82,30 @@
         "dark_thunderstorm",
         "marian_never_clear",
         "srakupen_hell"
+      ]
+    },
+    {
+      "id": "packmv10imrb",
+      "name": "Dark Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 166.6,
+      "levels": [
+        "ciemne_fale",
+        "dark_thunderstorm",
+        "ciemny_ocean"
+      ]
+    },
+    {
+      "id": "packmv10jejn",
+      "name": "skajer Pack",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 260.8,
+      "levels": [
+        "hellcastle",
+        "SampleLevel1",
+        "blue_switch"
       ]
     }
   ]
