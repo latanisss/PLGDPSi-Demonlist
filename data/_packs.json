@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:06:26.470Z",
+  "updatedAt": "2026-10-09T14:07:52.233Z",
   "tiers": [
     {
       "key": "pyl",
@@ -168,6 +168,18 @@
         "mejirushi",
         "SampleLevel1",
         "marian_never_clear"
+      ]
+    },
+    {
+      "id": "packmv11i7z0",
+      "name": "H Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 216,
+      "levels": [
+        "hellcastle",
+        "hubert_circles_infinity",
+        "Sample_Level_3"
       ]
     }
   ]
