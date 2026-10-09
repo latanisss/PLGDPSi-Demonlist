@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:16:38.895Z",
+  "updatedAt": "2026-10-09T13:17:11.081Z",
   "tiers": [
     {
       "key": "pyl",
@@ -58,6 +58,18 @@
         "mejirushi",
         "divinity",
         "hellcastle"
+      ]
+    },
+    {
+      "id": "packmv0zouah",
+      "name": "Top 1 Pack II",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 149.9,
+      "levels": [
+        "hellcastle",
+        "overdrive",
+        "SampleLevel1"
       ]
     }
   ]
