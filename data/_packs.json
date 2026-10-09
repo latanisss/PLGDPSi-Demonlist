@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:05:21.479Z",
+  "updatedAt": "2026-10-09T14:06:26.470Z",
   "tiers": [
     {
       "key": "pyl",
@@ -156,6 +156,18 @@
         "divinity",
         "dark_thunderstorm",
         "dear_nostalgists_19"
+      ]
+    },
+    {
+      "id": "packmv11ggm8",
+      "name": "M Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 198.9,
+      "levels": [
+        "mejirushi",
+        "SampleLevel1",
+        "marian_never_clear"
       ]
     }
   ]
