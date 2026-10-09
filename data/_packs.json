@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:40:59.034Z",
+  "updatedAt": "2026-10-09T13:52:56.400Z",
   "tiers": [
     {
       "key": "pyl",
@@ -23,90 +23,5 @@
       "name": "Otchłań"
     }
   ],
-  "packs": [
-    {
-      "id": "packmv0zhm96",
-      "name": "Layout Slop Pack",
-      "tier": "pyl",
-      "tierName": "Pył",
-      "points": 14.8,
-      "levels": [
-        "ciemny_ocean",
-        "nameless",
-        "cypherverse"
-      ]
-    },
-    {
-      "id": "packmv0zm0jc",
-      "name": "Knock-off Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 228.4,
-      "levels": [
-        "SampleLevel1",
-        "dark_thunderstorm",
-        "closecendo"
-      ]
-    },
-    {
-      "id": "packmv0zo6e5",
-      "name": "Top 1 Pack",
-      "tier": "otchlan",
-      "tierName": "Otchłań",
-      "points": 623.6,
-      "levels": [
-        "mejirushi",
-        "divinity",
-        "hellcastle"
-      ]
-    },
-    {
-      "id": "packmv0zouah",
-      "name": "Top 1 Pack II",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 341.4,
-      "levels": [
-        "hellcastle",
-        "overdrive",
-        "SampleLevel1"
-      ]
-    },
-    {
-      "id": "packmv10hpwe",
-      "name": "Bukaj5 Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 43.1,
-      "levels": [
-        "dark_thunderstorm",
-        "marian_never_clear",
-        "srakupen_hell"
-      ]
-    },
-    {
-      "id": "packmv10imrb",
-      "name": "Dark Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 166.6,
-      "levels": [
-        "ciemne_fale",
-        "dark_thunderstorm",
-        "ciemny_ocean"
-      ]
-    },
-    {
-      "id": "packmv10jejn",
-      "name": "skajer Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 260.8,
-      "levels": [
-        "hellcastle",
-        "SampleLevel1",
-        "blue_switch"
-      ]
-    }
-  ]
+  "packs": []
 }
