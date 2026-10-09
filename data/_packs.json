@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:32:36.543Z",
+  "updatedAt": "2026-10-09T13:29:56.297Z",
   "tiers": [
     {
       "key": "pyl",
@@ -25,11 +25,11 @@
   ],
   "packs": [
     {
-      "id": "packlayoutsloppack",
+      "id": "packmv0zhm96",
       "name": "Layout Slop Pack",
       "tier": "pyl",
       "tierName": "Pył",
-      "points": 14.8,
+      "points": 9.1,
       "levels": [
         "ciemny_ocean",
         "nameless",
@@ -37,11 +37,11 @@
       ]
     },
     {
-      "id": "packknockoffpack",
+      "id": "packmv0zm0jc",
       "name": "Knock-off Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 228.4,
+      "tier": "kometa",
+      "tierName": "Kometa",
+      "points": 97.9,
       "levels": [
         "SampleLevel1",
         "dark_thunderstorm",
@@ -49,11 +49,11 @@
       ]
     },
     {
-      "id": "packtop1pack",
+      "id": "packmv0zo6e5",
       "name": "Top 1 Pack",
-      "tier": "otchlan",
-      "tierName": "Otchłań",
-      "points": 623.6,
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 458.4,
       "levels": [
         "mejirushi",
         "divinity",
@@ -61,275 +61,15 @@
       ]
     },
     {
-      "id": "packtop1packii",
+      "id": "packmv0zouah",
       "name": "Top 1 Pack II",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 341.4,
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 149.9,
       "levels": [
         "hellcastle",
         "overdrive",
         "SampleLevel1"
-      ]
-    },
-    {
-      "id": "packmv73kpack",
-      "name": "mv73k Pack",
-      "tier": "otchlan",
-      "tierName": "Otchłań",
-      "points": 600.8,
-      "levels": [
-        "mejirushi",
-        "divinity",
-        "ciemne_fale"
-      ]
-    },
-    {
-      "id": "packmsvxefpack",
-      "name": "MsVxef Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 302.7,
-      "levels": [
-        "hubert_circles_infinity",
-        "vertiti",
-        "SAMPLELEVEL2",
-        "nameless"
-      ]
-    },
-    {
-      "id": "packskajerpack",
-      "name": "skajer Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 260.8,
-      "levels": [
-        "hellcastle",
-        "SampleLevel1",
-        "blue_switch"
-      ]
-    },
-    {
-      "id": "packbukaj5pack",
-      "name": "Bukaj5 Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 43.1,
-      "levels": [
-        "dark_thunderstorm",
-        "marian_never_clear",
-        "srakupen_hell"
-      ]
-    },
-    {
-      "id": "packdarkpack",
-      "name": "Dark Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 166.6,
-      "levels": [
-        "ciemne_fale",
-        "dark_thunderstorm",
-        "ciemny_ocean"
-      ]
-    },
-    {
-      "id": "packnostalgiapack",
-      "name": "Nostalgia Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 97.1,
-      "levels": [
-        "dear_nostalgists_19",
-        "times_changin",
-        "marian_never_clear"
-      ]
-    },
-    {
-      "id": "packweatherpack",
-      "name": "Weather Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 182.4,
-      "levels": [
-        "dark_thunderstorm",
-        "ciemne_fale",
-        "blue_switch"
-      ]
-    },
-    {
-      "id": "packpolishpack",
-      "name": "Polish Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 241.7,
-      "levels": [
-        "nameless",
-        "ciemne_fale",
-        "ciemny_ocean",
-        "srakupen_hell",
-        "SampleLevel1",
-        "marian_never_clear"
-      ]
-    },
-    {
-      "id": "packcpack",
-      "name": "C Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 261.7,
-      "levels": [
-        "ciemne_fale",
-        "ciemny_ocean",
-        "closecendo",
-        "cypherverse"
-      ]
-    },
-    {
-      "id": "packhpack",
-      "name": "H Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 378,
-      "levels": [
-        "hellcastle",
-        "hubert_circles_infinity",
-        "Sample_Level_3"
-      ]
-    },
-    {
-      "id": "packmpack",
-      "name": "M Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 348.2,
-      "levels": [
-        "mejirushi",
-        "SampleLevel1",
-        "marian_never_clear"
-      ]
-    },
-    {
-      "id": "packdpack",
-      "name": "D Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 266.4,
-      "levels": [
-        "divinity",
-        "dark_thunderstorm",
-        "dear_nostalgists_19"
-      ]
-    },
-    {
-      "id": "packspack",
-      "name": "S Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 102.8,
-      "levels": [
-        "SampleLevel1",
-        "srakupen_hell",
-        "blue_switch"
-      ]
-    },
-    {
-      "id": "packpodiumpack",
-      "name": "Podium Pack",
-      "tier": "otchlan",
-      "tierName": "Otchłań",
-      "points": 649.8,
-      "levels": [
-        "mejirushi",
-        "divinity",
-        "hubert_circles_infinity"
-      ]
-    },
-    {
-      "id": "packtop5pack",
-      "name": "Top 5 Pack",
-      "tier": "otchlan",
-      "tierName": "Otchłań",
-      "points": 944,
-      "levels": [
-        "mejirushi",
-        "divinity",
-        "hubert_circles_infinity",
-        "hellcastle",
-        "ciemne_fale"
-      ]
-    },
-    {
-      "id": "packknockoutpack",
-      "name": "Knockout Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 410.2,
-      "levels": [
-        "hellcastle",
-        "ciemne_fale",
-        "closecendo"
-      ]
-    },
-    {
-      "id": "packmidpack",
-      "name": "Mid Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 155.5,
-      "levels": [
-        "tes",
-        "SAMPLELEVEL2",
-        "Sample_Level_3",
-        "dark_thunderstorm"
-      ]
-    },
-    {
-      "id": "packstarterpack",
-      "name": "Starter Pack",
-      "tier": "pyl",
-      "tierName": "Pył",
-      "points": 7.8,
-      "levels": [
-        "nameless",
-        "ciemny_ocean",
-        "srakupen_hell"
-      ]
-    },
-    {
-      "id": "packktotoweryfikowalpack",
-      "name": "Kto to weryfikowal Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 40,
-      "levels": [
-        "nameless",
-        "srakupen_hell",
-        "Sample_Level_3"
-      ]
-    },
-    {
-      "id": "packnazwyzdupypack",
-      "name": "Nazwy z dupy Pack",
-      "tier": "kometa",
-      "tierName": "Kometa",
-      "points": 89.3,
-      "levels": [
-        "nameless",
-        "srakupen_hell",
-        "SampleLevel1"
-      ]
-    },
-    {
-      "id": "packneverclearpack",
-      "name": "Never Clear Pack",
-      "tier": "pyl",
-      "tierName": "Pył",
-      "points": 19.5,
-      "levels": [
-        "marian_never_clear",
-        "nameless",
-        "srakupen_hell"
       ]
     }
   ]
