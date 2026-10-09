@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:11:38.398Z",
+  "updatedAt": "2026-10-09T14:28:36.916Z",
   "tiers": [
     {
       "key": "pyl",
@@ -58,6 +58,18 @@
         "dark_thunderstorm",
         "marian_never_clear",
         "srakupen_hell"
+      ]
+    },
+    {
+      "id": "packmv128zbt",
+      "name": "OG Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 79.5,
+      "levels": [
+        "nameless",
+        "SampleLevel1",
+        "tes"
       ]
     },
     {
