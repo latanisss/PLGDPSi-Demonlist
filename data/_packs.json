@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:01:33.029Z",
+  "updatedAt": "2026-10-09T14:03:13.637Z",
   "tiers": [
     {
       "key": "pyl",
@@ -118,6 +118,19 @@
         "nameless",
         "ciemny_ocean",
         "dorcelessness"
+      ]
+    },
+    {
+      "id": "packmv11c2z5",
+      "name": "C(wel) Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 149.5,
+      "levels": [
+        "ciemne_fale",
+        "ciemny_ocean",
+        "closecendo",
+        "cypherverse"
       ]
     }
   ]
