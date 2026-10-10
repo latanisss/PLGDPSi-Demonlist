@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T14:28:36.916Z",
+  "updatedAt": "2026-10-10T21:20:20.151Z",
   "tiers": [
     {
       "key": "pyl",
@@ -29,7 +29,7 @@
       "name": "Layout Slop Pack",
       "tier": "pyl",
       "tierName": "Pył",
-      "points": 8.5,
+      "points": 8.1,
       "levels": [
         "ciemny_ocean",
         "nameless",
@@ -41,7 +41,7 @@
       "name": "Przedszkole Pack",
       "tier": "pyl",
       "tierName": "Pył",
-      "points": 10.2,
+      "points": 9.7,
       "levels": [
         "nameless",
         "ciemny_ocean",
@@ -53,7 +53,7 @@
       "name": "Bukaj5 Pack",
       "tier": "pyl",
       "tierName": "Pył",
-      "points": 24.6,
+      "points": 22.9,
       "levels": [
         "dark_thunderstorm",
         "marian_never_clear",
@@ -65,7 +65,7 @@
       "name": "OG Pack",
       "tier": "gwiazda",
       "tierName": "Gwiazda",
-      "points": 79.5,
+      "points": 84.4,
       "levels": [
         "nameless",
         "SampleLevel1",
@@ -77,7 +77,7 @@
       "name": "Dark Pack",
       "tier": "gwiazda",
       "tierName": "Gwiazda",
-      "points": 95.2,
+      "points": 96.2,
       "levels": [
         "ciemne_fale",
         "dark_thunderstorm",
@@ -89,7 +89,7 @@
       "name": "Knock-off Pack",
       "tier": "gwiazda",
       "tierName": "Gwiazda",
-      "points": 130.5,
+      "points": 134.3,
       "levels": [
         "SampleLevel1",
         "dark_thunderstorm",
@@ -97,11 +97,35 @@
       ]
     },
     {
+      "id": "packmv11ezlc",
+      "name": "D(uze uda) Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 134.3,
+      "levels": [
+        "divinity",
+        "dark_thunderstorm",
+        "dear_nostalgists_19"
+      ]
+    },
+    {
+      "id": "packmv2wdzeb",
+      "name": "Open Verification Pack",
+      "tier": "gwiazda",
+      "tierName": "Gwiazda",
+      "points": 134.9,
+      "levels": [
+        "ciemne_fale",
+        "times_changin",
+        "faint"
+      ]
+    },
+    {
       "id": "packmv11c2z5",
       "name": "C(wel) Pack",
       "tier": "gwiazda",
       "tierName": "Gwiazda",
-      "points": 149.5,
+      "points": 153.9,
       "levels": [
         "ciemne_fale",
         "ciemny_ocean",
@@ -110,11 +134,23 @@
       ]
     },
     {
+      "id": "packmv10jejn",
+      "name": "skajer Pack",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 152.8,
+      "levels": [
+        "hellcastle",
+        "SampleLevel1",
+        "blue_switch"
+      ]
+    },
+    {
       "id": "packmv11dvyj",
       "name": "MsVxef Pack",
-      "tier": "gwiazda",
-      "tierName": "Gwiazda",
-      "points": 173,
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 195.9,
       "levels": [
         "hubert_circles_infinity",
         "vertiti",
@@ -123,47 +159,11 @@
       ]
     },
     {
-      "id": "packmv10jejn",
-      "name": "skajer Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 149,
-      "levels": [
-        "hellcastle",
-        "SampleLevel1",
-        "blue_switch"
-      ]
-    },
-    {
-      "id": "packmv11ezlc",
-      "name": "D(uze uda) Pack",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 152.2,
-      "levels": [
-        "divinity",
-        "dark_thunderstorm",
-        "dear_nostalgists_19"
-      ]
-    },
-    {
-      "id": "packmv0zouah",
-      "name": "Top 1 Pack II",
-      "tier": "kolos",
-      "tierName": "Kolos",
-      "points": 195.1,
-      "levels": [
-        "hellcastle",
-        "overdrive",
-        "SampleLevel1"
-      ]
-    },
-    {
       "id": "packmv11ggm8",
       "name": "M Pack",
       "tier": "kolos",
       "tierName": "Kolos",
-      "points": 198.9,
+      "points": 201,
       "levels": [
         "mejirushi",
         "SampleLevel1",
@@ -171,11 +171,23 @@
       ]
     },
     {
+      "id": "packmv0zouah",
+      "name": "Top 1 Pack II",
+      "tier": "kolos",
+      "tierName": "Kolos",
+      "points": 202.1,
+      "levels": [
+        "hellcastle",
+        "overdrive",
+        "SampleLevel1"
+      ]
+    },
+    {
       "id": "packmv11i7z0",
       "name": "H Pack",
       "tier": "kolos",
       "tierName": "Kolos",
-      "points": 216,
+      "points": 238.3,
       "levels": [
         "hellcastle",
         "hubert_circles_infinity",
@@ -187,7 +199,7 @@
       "name": "mv73k Pack",
       "tier": "otchlan",
       "tierName": "Otchłań",
-      "points": 343.3,
+      "points": 329.7,
       "levels": [
         "mejirushi",
         "divinity",
@@ -199,7 +211,7 @@
       "name": "Top 1 Pack",
       "tier": "otchlan",
       "tierName": "Otchłań",
-      "points": 356.3,
+      "points": 342.4,
       "levels": [
         "mejirushi",
         "divinity",
