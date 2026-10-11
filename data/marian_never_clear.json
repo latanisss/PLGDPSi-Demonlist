@@ -1,10 +1,17 @@
 {
-  "id": 1734,
-  "name": "marian never clear",
-  "author": "bukaj5",
-  "creators": [],
-  "verifier": "polskitomeq",
-  "verification": "https://youtu.be/t8804LN6BTY",
-  "percentToQualify": 81,
-  "records": []
+    "id": 1734,
+    "name": "marian never clear",
+    "author": "bukaj5",
+    "creators": [],
+    "verifier": "polskitomeq",
+    "verification": "https://youtu.be/t8804LN6BTY",
+    "percentToQualify": 81,
+    "records": [
+        {
+            "user": "mv73k",
+            "link": "https://youtu.be/AaQy-jbbosI",
+            "percent": 100,
+            "hz": 1000
+        }
+    ]
 }
