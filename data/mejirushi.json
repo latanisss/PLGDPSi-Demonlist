@@ -1,17 +1,24 @@
 {
-    "id": 1712,
-    "name": "mejirushi",
-    "author": "mv73k",
-    "creators": [],
-    "verifier": "mv73k",
-    "verification": "https://youtu.be/UcbiVLO2qIk",
-    "percentToQualify": 81,
-    "records": [
-        {
-            "user": "mone",
-            "link": "https://youtu.be/XzA3fhq4a0k",
-            "percent": 100,
-            "hz": 480
-        }
-    ]
+  "id": 1712,
+  "name": "mejirushi",
+  "author": "mv73k",
+  "creators": [],
+  "verifier": "mv73k",
+  "verification": "https://youtu.be/UcbiVLO2qIk",
+  "percentToQualify": 81,
+  "records": [
+    {
+      "user": "mone",
+      "link": "https://youtu.be/XzA3fhq4a0k",
+      "percent": 100,
+      "hz": 480
+    }
+  ],
+  "tags": [
+    "Medium",
+    "Clicksync",
+    "Timings",
+    "Learny",
+    "Chokepoints"
+  ]
 }
