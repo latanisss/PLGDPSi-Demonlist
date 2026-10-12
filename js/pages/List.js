@@ -1,6 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score, listPoints } from "../score.js";
+import { sortTags } from "../tags.js";
 import { fetchEditors, fetchList, fetchPacks } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
@@ -24,7 +25,7 @@ export default {
             <div class="list-container">
                 <div class="panel-heading">
                     <div>
-                        <h2>Lista demonów</h2>
+                        <h2>Lista</h2>
                     </div>
                     <span class="count-pill">{{ list?.length || 0 }} LEVELI</span>
                 </div>
@@ -51,6 +52,9 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <div class="level-packs" v-if="currentPacks.length">
                         <router-link v-for="p in currentPacks" :key="p.id" class="pack-tag" :class="'tier-' + p.tier" :to="{ path: '/packs', query: { pack: p.id } }">{{ p.name }}</router-link>
+                    </div>
+                    <div class="level-tags" v-if="levelTags.length">
+                        <span v-for="tag in levelTags" :key="tag" class="tag-pill">{{ tag }}</span>
                     </div>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <div class="video-shell">
@@ -163,6 +167,9 @@ export default {
         currentPacks() {
             if (!this.level) return [];
             return this.packs.filter(pack => Array.isArray(pack.levels) && pack.levels.includes(this.level.path));
+        },
+        levelTags() {
+            return sortTags(this.level?.tags);
         },
         video() {
             if (!this.level.showcase) {
